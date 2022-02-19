@@ -13,8 +13,7 @@
     -moz-box-shadow: 19px 19px 46px #000000;
     box-shadow: 19px 19px 46px #000000;
     text-shadow: 1px 1px 18px #FFFACD;
-    background-image: -moz-linear-gradient(top, #87CEFA 56%, #98FB98);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.56, #87CEFA), color-stop(1.0, #98FB98));
+   
     background-color: #000080;
     padding: 22px;
     font-family: Verdana, Geneva, sans-serif;
@@ -51,7 +50,7 @@
   /* 2 */
   .main-banner:before {
     content: '';
-    background-image: url(../images/slider-right-dec.jpg);
+    /* background-image: url(../images/slider-right-dec.jpg); */
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
@@ -312,7 +311,8 @@ intro
 
 .intro-banner:after {
   content: '';
-  background-image: url(../images/slider-left-dec.jpg);
+  
+
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1067,7 +1067,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/slider-left-dec.jpg);
+ 
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1079,7 +1079,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/slider-right-dec.jpg);
+
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1551,7 +1551,7 @@ Free Quote
 */
 
 .free-quote {
-  background-image: url(../images/quote-bg.jpg);
+ 
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1632,7 +1632,7 @@ Portfolio
 
 .our-portfolio:before {
   content: '';
-  background-image: url(../images/portfolio-right-dec.jpg);
+
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1644,7 +1644,7 @@ Portfolio
 
 .our-portfolio:after {
   content: '';
-  background-image: url(../images/portfolio-left-dec.jpg);
+
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1753,7 +1753,7 @@ Blog
 
 .blog:before {
   content: '';
-  background-image: url(../images/blog-left-dec.jpg);
+
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1920,7 +1920,7 @@ contact
 
 
 form#contact:before {
-  background-image: url(../images/contact-top-right.png);
+
   position: absolute;
   right: 0;
   top: 0;
@@ -1939,7 +1939,7 @@ form#contact:before {
 }
 
 form#contact:after {
-  background-image: url(../images/contact-bottom-right.png);
+
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2069,7 +2069,7 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg.jpg);
+
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

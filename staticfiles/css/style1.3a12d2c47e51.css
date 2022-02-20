@@ -1,6 +1,8 @@
 
+/* different 2 */
+
 #id1 {
-    color: #9090e0;
+    color: #cacae6;
     align-items: center;
   }
 
@@ -14,14 +16,14 @@
     box-shadow: 19px 19px 46px #000000;
     text-shadow: 1px 1px 18px #FFFACD;
    
-    background-color: #b85fc5;
+    background-color: #9e83e9;
     padding: 22px;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 14pt;
     color: #2F4F4F;
     text-align: left;
 
-    color: #e2e2eb;
+    color: #efeff5;
   }
 
   .outer{
